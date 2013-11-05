@@ -2,6 +2,10 @@
 Changelog for package yocs_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.2 (2013-11-05)
+------------------
+* Move YOCS messages to its own stack.
+
 0.5.1 (2013-10-14)
 ------------------
 
