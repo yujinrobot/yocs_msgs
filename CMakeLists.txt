@@ -12,7 +12,8 @@ add_message_files(
   ColumnList.msg
   Table.msg
   TableList.msg
-  Waypoints.msg
+  Waypoint.msg
+  WaypointList.msg
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
