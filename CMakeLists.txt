@@ -16,6 +16,11 @@ add_message_files(
   WaypointList.msg
 )
 
+add_service_files(
+  FILES
+  WaypointListService.srv
+)
+
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
 
 catkin_package(CATKIN_DEPENDS std_msgs geometry_msgs std_srvs message_runtime)
