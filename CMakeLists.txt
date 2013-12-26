@@ -12,6 +12,13 @@ add_message_files(
   ColumnList.msg
   Table.msg
   TableList.msg
+  Waypoint.msg
+  WaypointList.msg
+)
+
+add_service_files(
+  FILES
+  WaypointListService.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
