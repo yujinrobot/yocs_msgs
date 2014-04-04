@@ -4,12 +4,12 @@
   <version>0.6.0</version>
   <description>Yujin's Open Control System messages, services and actions</description>
 
-  <author email="jorge@rnd.yujinrobot.com">Jorge Santos</author>
-  <maintainer email="jorge@rnd.yujinrobot.com">Jorge Santos</maintainer>
+  <maintainer email="jihoonl@yujinrobot.com">Jihoon Lee</maintainer>
+  <author>Jorge Santos</author>
   <license>BSD</license>
   <url type="website">http://ros.org/wiki/yocs_msgs</url>
-  <url type="repository">https://github.com/yujinrobot/yujin_ocs</url>
-  <url type="bugtracker">https://github.com/yujinrobot/yujin_ocs/issues</url>
+  <url type="repository">https://github.com/yujinrobot/yocs_msgs</url>
+  <url type="bugtracker">https://github.com/yujinrobot/yocs_msgs/issues</url>
   
   <buildtool_depend>catkin</buildtool_depend>
 
@@ -17,9 +17,11 @@
   <build_depend>std_srvs</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>message_generation</build_depend>
+  <build_depend>ar_track_alvar</build_depend>
 
   <run_depend>std_msgs</run_depend>
   <run_depend>std_srvs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
+  <run_depend>ar_track_alvar</run_depend>
 </package>
