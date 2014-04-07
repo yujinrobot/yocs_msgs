@@ -19,7 +19,10 @@ add_message_files(
 add_service_files(
   FILES
   WaypointListService.srv
-  SaveAnnotations.srv
+  SaveTables.srv
+  SaveColumns.srv
+  SaveWalls.srv
+  SaveARMarkers.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs ar_track_alvar)
