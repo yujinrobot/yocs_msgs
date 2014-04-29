@@ -14,6 +14,8 @@ add_message_files(
   TableList.msg
   Waypoint.msg
   WaypointList.msg
+  ARPair.msg
+  ARPairList.msg
 )
 
 add_service_files(
