@@ -2,8 +2,8 @@
 Changelog for package yocs_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.1 (2014-07-01)
+------------------
 * Merge pull request `#3 <https://github.com/yujinrobot/yocs_msgs/issues/3>`_ from yujinrobot/ar_pair
 * ar pair messages
   remove update ar pair service. instead creates ar pair list
