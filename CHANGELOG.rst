@@ -2,6 +2,20 @@
 Changelog for package yocs_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge pull request `#3 <https://github.com/yujinrobot/yocs_msgs/issues/3>`_ from yujinrobot/ar_pair
+* ar pair messages
+  remove update ar pair service. instead creates ar pair list
+* Merge pull request `#1 <https://github.com/yujinrobot/yocs_msgs/issues/1>`_ from yujinrobot/waypoints
+  Waypoints
+* success flag
+* add waypoint service
+* waypoint list added
+* version bump for igloo development
+* Add extra messages containing semantic map objects.
+* Contributors: Jihoon Lee, Jorge Santos, Marcus Liebhardt
+
 0.5.2 (2013-11-05)
 ------------------
 * Move YOCS messages to its own stack.
