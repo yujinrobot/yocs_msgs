@@ -8,9 +8,9 @@ int8 ON   = 12
 ---
 # Result
 bool    success
-float16 distance
+float32 distance
 string  message
 ---
 # Feedback
 string  status
-float16 distance
+float32 distance
