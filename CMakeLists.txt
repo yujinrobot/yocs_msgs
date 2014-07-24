@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(yocs_msgs)
 
-find_package(catkin REQUIRED COMPONENTS std_msgs geometry_msgs std_srvs message_generation)
+find_package(catkin REQUIRED COMPONENTS actionlib_msgs std_msgs geometry_msgs std_srvs message_generation)
 
 ## Generate messages in the 'msg' folder
 add_message_files(
@@ -23,6 +23,12 @@ add_service_files(
   WaypointListService.srv
 )
 
-generate_messages(DEPENDENCIES std_msgs geometry_msgs)
+add_action_files(
+  DIRECTORY action
+  FILES
+  NavigateTo.action
+)
 
-catkin_package(CATKIN_DEPENDS std_msgs geometry_msgs std_srvs message_runtime)
+generate_messages(DEPENDENCIES actionlib_msgs std_msgs geometry_msgs std_srvs)
+
+catkin_package(CATKIN_DEPENDS actionlib_msgs std_msgs geometry_msgs std_srvs message_runtime)

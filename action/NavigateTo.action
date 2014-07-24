@@ -1,0 +1,14 @@
+# Goal
+string location
+int8   approach_type
+int8   num_trial
+
+int8 NEAR = 11
+int8 ON   = 12
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string status
