@@ -7,8 +7,10 @@ int8 NEAR = 11
 int8 ON   = 12
 ---
 # Result
-bool success
-string message
+bool    success
+float16 distance
+string  message
 ---
 # Feedback
-string status
+string  status
+float16 distance
