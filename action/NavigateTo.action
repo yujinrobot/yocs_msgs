@@ -2,7 +2,7 @@
 string location
 int8   approach_type
 int8   num_retry
-int8   timeout
+float32 timeout
 
 # This variable used when approach near is requested
 float32 distance
