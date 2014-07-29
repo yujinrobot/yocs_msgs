@@ -18,6 +18,7 @@ string  message
 # Feedback
 string  message
 float32 distance
+float32 remain_time
 int8    status
 
 int8 STATUS_RETRY       = 21
