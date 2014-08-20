@@ -12,6 +12,7 @@ add_message_files(
   ColumnList.msg
   Table.msg
   TableList.msg
+  Trajectory.msg
   Waypoint.msg
   WaypointList.msg
   ARPair.msg
