@@ -27,6 +27,7 @@ add_action_files(
   DIRECTORY action
   FILES
   NavigateTo.action
+  DockingInteractor.action
 )
 
 generate_messages(DEPENDENCIES actionlib_msgs std_msgs geometry_msgs std_srvs)
