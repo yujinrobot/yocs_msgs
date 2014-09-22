@@ -28,6 +28,7 @@ add_action_files(
   FILES
   NavigateTo.action
   DockingInteractor.action
+  Localize.action
 )
 
 generate_messages(DEPENDENCIES actionlib_msgs std_msgs geometry_msgs std_srvs)
