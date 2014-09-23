@@ -1,5 +1,6 @@
 # Request
 int8 command
+float32 distance
 
 int8 WAKE_UP= 10
 int8 REGISTER_DOCK_IN_GLOBAL_FRAME = 20
@@ -10,4 +11,11 @@ bool success
 string message
 ---
 # Feedback
+int8 level
+
+int8 DEBUG=1
+int8 INFO=2
+int8 WARN=4
+int8 ERROR=8
+
 string message
