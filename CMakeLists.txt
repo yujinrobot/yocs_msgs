@@ -3,25 +3,22 @@ project(yocs_msgs)
 
 find_package(catkin REQUIRED COMPONENTS actionlib_msgs std_msgs geometry_msgs std_srvs message_generation)
 
-## Generate messages in the 'msg' folder
-add_message_files(
-  FILES
-  Wall.msg
-  WallList.msg
-  Column.msg
-  ColumnList.msg
-  Table.msg
-  TableList.msg
-  Waypoint.msg
-  WaypointList.msg
-  ARPair.msg
-  ARPairList.msg
-)
+add_message_files(FILES ARPair.msg
+                        ARPairList.msg
+                        Wall.msg
+                        WallList.msg
+                        Column.msg
+                        ColumnList.msg
+                        NavigationControl.msg
+                        NavigationControlStatus.msg
+                        Table.msg
+                        TableList.msg
+                        Trajectory.msg
+                        TrajectoryList.msg
+                        Waypoint.msg
+                        WaypointList.msg)
 
-add_service_files(
-  FILES
-  WaypointListService.srv
-)
+add_service_files(FILES WaypointListService.srv)
 
 add_action_files(
   DIRECTORY action
