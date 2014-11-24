@@ -2,8 +2,8 @@
 Changelog for package yocs_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.2 (2014-11-24)
+------------------
 * merging waypoint messages
 * Merge branch 'indigo-devel' of https://github.com/yujinrobot/yocs_msgs into indigo-devel
 * add extra commands to implement later
