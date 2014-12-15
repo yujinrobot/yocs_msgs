@@ -1,4 +1,5 @@
 int8 command
+float32 distortion
 
 int8 STAND_AND_LOCALIZE=10
 int8 SPIN_AND_LOCALIZE =20
