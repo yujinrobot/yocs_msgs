@@ -2,6 +2,28 @@
 Changelog for package yocs_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.2 (2014-11-24)
+------------------
+* merging waypoint messages
+* Merge branch 'indigo-devel' of https://github.com/yujinrobot/yocs_msgs into indigo-devel
+* add extra commands to implement later
+* add feedback message level
+* add localization manager action
+* add docking interactor action
+* improves comments and adds more states for nav ctrl msgs
+* adds new trajectory and nav ctrl messages
+* adds Trajectory message
+* Merge pull request `#4 <https://github.com/yujinrobot/yocs_msgs/issues/4>`_ from yujinrobot/indigo
+  Sync with indigo
+* add remain_time
+* change time from int to float
+* add timeout for goal
+* add distance field
+* add distance variable
+* add navigateto action
+* updating package info. remove email for author. update maintainer
+* Contributors: Jihoon Lee, Marcus Liebhardt
+
 0.6.1 (2014-07-01)
 ------------------
 * Merge pull request `#3 <https://github.com/yujinrobot/yocs_msgs/issues/3>`_ from yujinrobot/ar_pair
