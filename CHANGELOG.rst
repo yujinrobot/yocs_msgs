@@ -2,8 +2,8 @@
 Changelog for package yocs_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.6.3 (2015-02-09)
+------------------
 * Merge branch 'indigo' into update
 * add distortion
 * add more commands
