@@ -7,7 +7,7 @@ float32 timeout
 # This variable used when approach near is requested
 float32 distance
 
-int8 APPROACH_NEAR = 11
+int8 APPROACH_NEAR = 11 # Not implemented yet
 int8 APPROACH_ON   = 12
 ---
 # Result
