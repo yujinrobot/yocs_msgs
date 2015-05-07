@@ -9,6 +9,7 @@ add_message_files(FILES ARPair.msg
                         WallList.msg
                         Column.msg
                         ColumnList.msg
+                        MagicButton.msg
                         NavigationControl.msg
                         NavigationControlStatus.msg
                         Table.msg
