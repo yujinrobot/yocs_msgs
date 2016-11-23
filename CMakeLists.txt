@@ -29,7 +29,8 @@ add_action_files(
   Localize.action
 )
 
-generate_dynamic_reconfigure_options( dynamic_reconfigure/Joystick.cfg )
+generate_dynamic_reconfigure_options( dynamic_reconfigure/Joystick.cfg
+				      dynamic_reconfigure/PoseController.cfg)
 
 generate_messages(DEPENDENCIES actionlib_msgs std_msgs geometry_msgs std_srvs)
 
