@@ -19,7 +19,7 @@ add_message_files(FILES ARPair.msg
                         Waypoint.msg
                         WaypointList.msg)
 
-add_service_files(FILES WaypointListService.srv)
+add_service_files(FILES ChangeMuxPriority.srv ResetPendingMuxPriority.srv WaypointListService.srv)
 
 add_action_files(
   DIRECTORY action

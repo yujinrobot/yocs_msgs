@@ -1,0 +1,8 @@
+uint8 LOWEST_PRIORITY=0
+uint8 HIGHEST_PRIORITY=255
+
+string topic    # The topic whose priority needs to be changed
+uint8 priority  # The priority to set for the topic
+bool permanent  # Priority change is permanent if set to true
+float32 timeout # Timeout only applies if priority change is not permanent
+---
